@@ -10,3 +10,6 @@ Build the [libVLCX.UWP project](https://code.videolan.org/videolan/vlc-winrt/tre
 This package is not intended to be used directly from your code. You should use [VLC.MediaElement](https://github.com/kakone/VLC.MediaElement).
 
 But, you can look at [the source code of VLC](https://code.videolan.org/videolan/vlc-winrt) or [VLC.MediaElement](https://github.com/kakone/VLC.MediaElement) to see how you can use it.
+
+## Download
+[![NuGet](http://img.shields.io/nuget/v/libVLCX.svg)](https://www.nuget.org/packages/libVLCX)
