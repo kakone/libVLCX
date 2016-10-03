@@ -9,7 +9,7 @@ Build the [libVLCX.UWP project](https://code.videolan.org/videolan/vlc-winrt/tre
 ## libVLCX usage
 This package is not intended to be used directly from your code. You should use [VLC.MediaElement](https://github.com/kakone/VLC.MediaElement).
 
-But, you can look at [the source code of VLC](https://code.videolan.org/videolan/vlc-winrt) or [VLC.MediaElement](https://github.com/kakone/VLC.MediaElement) to see how you can use it.
+But, you can look at [the source code of VLC](https://code.videolan.org/videolan/vlc-winrt) or [VLC.MediaElement](https://github.com/kakone/VLC.MediaElement) to see how you can use it. You must add the *Microsoft Visual C++ 2013 Runtime Package for Windows Universal* extension to your project if you want to use the libVLCX package directly.
 
 ## Download
 [![NuGet](http://img.shields.io/nuget/v/libVLCX.svg)](https://www.nuget.org/packages/libVLCX)
