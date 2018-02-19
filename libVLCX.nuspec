@@ -2,14 +2,14 @@
 <package>
   <metadata>
     <id>libVLCX</id>
-    <version>0.9.1</version>
+    <version>3.0.1</version>
     <authors>VideoLAN</authors>
     <owners>Stéphane Mitermite</owners>
     <licenseUrl>https://code.videolan.org/videolan/vlc-winrt/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://code.videolan.org/videolan/vlc-winrt/</projectUrl>
     <title>libVLCX</title>
     <description>libVLC for UWP</description>
-    <releaseNotes>Beta release. Requires Windows 10 Anniversary Edition and matching Windows SDK.</releaseNotes>
+    <releaseNotes>Requires Windows 10 Anniversary Edition and matching Windows SDK.</releaseNotes>
     <tags>vlc libvlc libvlcx video audio</tags>      
   </metadata>
   <files>
@@ -22,5 +22,8 @@
     
     <file src="build\amd64\libVLCX.UWP.dll" target="runtimes\win10-x64\native\libVLCX.dll" />
     <file src="vlc-winrt\libvlc\Universal\vlc-amd64\Release\**" exclude="vlc-winrt\libvlc\Universal\vlc-amd64\Release\include\**" target="build\uap10.0\amd64" />
+    
+    <file src="build\arm\libVLCX.UWP.dll" target="runtimes\win10-arm\native\libVLCX.dll" />
+    <file src="vlc-winrt\libvlc\Universal\vlc-arm\Release\**" exclude="vlc-winrt\libvlc\Universal\vlc-arm\Release\include\**" target="build\uap10.0\arm" />
   </files>
 </package>

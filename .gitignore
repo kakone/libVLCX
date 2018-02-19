@@ -3,3 +3,12 @@
 ################################################################################
 
 /build/amd64/libVLCX.UWP.dll
+/build/arm/libVLCX.UWP.dll
+/build/x86/libVLCX.pri
+/build/x86/libVLCX.UWP.dll
+/build/x86/libVLCX.winmd
+/nuget pack.bat
+/nuget.exe
+/update.bat
+/update2.bat
+/libVLCX.*.nupkg
