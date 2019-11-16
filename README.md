@@ -1,6 +1,9 @@
 # libVLC for UWP NuGet package
 libVLCX.nuspec and libVLCX.targets files to build the libVLCX NuGet package
 
+**This GitHub project has been archived.** You can now use [LibVLCSharp](https://github.com/videolan/libvlcsharp/).
+
+
 ## How to build the libVLCX NuGet package
 Build the [libVLCX.UWP project](https://code.videolan.org/videolan/vlc-winrt/tree/master/modules/libVLCX.UWP) and put the result in build/amd64 and build/x86 folders. Then, run the command :
 
